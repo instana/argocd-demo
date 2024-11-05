@@ -98,7 +98,9 @@ agent:
   # use this to set additional environment variables for the instana agent
   # for example:
   env:
-    INSTANA_AGENT_UPDATES_VERSION: 2024.11.04.1548 # check for available versions at https://github.com/instana/agent-updates/tags 
+    INSTANA_AGENT_UPDATES_VERSION: 2024.10.28.1344 # check for available versions at https://github.com/instana/agent-updates/tags 
+    # INSTANA_AGENT_UPDATES_TIME: 4:30 # no effect when version is pinned with INSTANA_AGENT_UPDATES_VERSION
+    # INSTANA_AGENT_UPDATES_FREQUENCY: DAY # no effect when version is pinned with INSTANA_AGENT_UPDATES_VERSION
     
 
   configuration:
